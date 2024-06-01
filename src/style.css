@@ -1,0 +1,34 @@
+.turn,
+.tictactoe {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: large;
+  font-weight: 900;
+}
+
+.status {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: large;
+  font-weight: 900;
+  color: red;
+}
+
+.board {
+  height: 300px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 200px;
+}
+
+.square {
+  height: 100px;
+  width: 100ox;
+}
+
+.square:hover {
+  background-color: aqua;
+}
